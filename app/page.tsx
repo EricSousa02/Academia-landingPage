@@ -18,10 +18,11 @@ export default function Home() {
           </h1>
           <p>
             Liberte seu potencial e embarque em uma jornada rumo a um você mais
-            forte, mais saudável e mais confiante. Inscreva-se no "Modele Seu
-            Corpo" agora e veja a incrível transformação que seu corpo é capaz
+            forte, mais saudável e mais confiante. Inscreva-se no &ldquo;Modele Seu
+            Corpo&rdquo; agora e veja a incrível transformação que seu corpo é capaz
             de alcançar!
           </p>
+
 
           <button className="btn">Comece Agora</button>
         </div>
