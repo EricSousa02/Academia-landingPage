@@ -102,7 +102,7 @@ export default function Home() {
           <h2 className="section__header">A AULA QUE VOCÊ TERÁ AQUI</h2>
           <p>
             Conduzida por nossa equipe de instrutores especializados e
-            motivadores, "A Aula Que Você Terá Aqui" é uma sessão de alta
+            motivadores, &ldquo;A Aula Que Você Terá Aqui&rdquo; é uma sessão de alta
             energia e focada em resultados que combina perfeitamente cardio,
             treinamento de força e exercícios funcionais. Cada aula é
             cuidadosamente elaborada para mantê-lo envolvido e desafiado,
