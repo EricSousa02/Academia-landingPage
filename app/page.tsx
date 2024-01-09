@@ -1,13 +1,13 @@
 import ReviewsCarousel from "./components/Reviews";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import Image from 'next/image';
 
 
 export default function Home() {
   return (
     <main>
-    <Navbar/>
+      <Navbar />
       <header className="section__container header__container" id="Início">
         <div className="header__content">
           <span className="bg__blur"></span>
@@ -18,14 +18,15 @@ export default function Home() {
           </h1>
           <p>
             Liberte seu potencial e embarque em uma jornada rumo a um você mais
-            forte, mais saudável e mais confiante. Inscreva-se no 'Modele Seu
-            Corpo' agora e veja a incrível transformação que seu corpo é capaz
+            forte, mais saudável e mais confiante. Inscreva-se no "Modele Seu
+            Corpo" agora e veja a incrível transformação que seu corpo é capaz
             de alcançar!
           </p>
+
           <button className="btn">Comece Agora</button>
         </div>
         <div className="header__image">
-          <img src="assets/header.png" alt="header" />
+          <Image height={500} width={500} src="/assets/header.png" alt="header" />
         </div>
       </header>
       <section className="section__container explore__container" id="Programa">
@@ -117,7 +118,7 @@ export default function Home() {
           apoio, onde você pode fazer amigos e se manter motivado.
         </p>
         <div className="join__image">
-          <img src="assets/join.jpg" alt="Junte-se" />
+          <Image height={1200} width={1200} src="/assets/join.jpg" alt="Junte-se" />
           <div className="join__grid">
             <div className="join__card">
               <span>
@@ -175,7 +176,7 @@ export default function Home() {
             </div>
             <button className="btn price__btn">Junte-se Agora</button>
           </div>
-        
+
           <div className="price__card">
             <div className="price__card__content">
               <h4>Plano Mensal</h4>
@@ -205,9 +206,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-     
-     <ReviewsCarousel/>
-     <Footer/>
+
+      <ReviewsCarousel />
+      <Footer />
+
+
     </main>
   );
 }
