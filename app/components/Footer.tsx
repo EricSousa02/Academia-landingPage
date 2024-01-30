@@ -50,7 +50,7 @@ const Footer = () => {
           <a href="#">Contate-nos</a>
           <a href="#">Política de Privacidade</a>
           <a href="#">Termos e Condições</a>
-          <a href="#">Calculadora de IMC</a>
+          <a href="#">Calcular IMC</a>
         </div>
       </footer>
       <div className="footer__bar">

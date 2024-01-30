@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main>
+    <main className=" overflow-hidden">
       <Navbar />
       <header className="section__container header__container" id="Início">
         <div className="header__content">
